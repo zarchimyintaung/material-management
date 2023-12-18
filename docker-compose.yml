@@ -1,0 +1,60 @@
+version: '2.12'
+
+services:
+
+  # for project 
+  laravel:
+    build: ./
+    environment:
+      DB_HOST: db
+      DB_DATABASE: ucsmyeik
+      DB_USERNAME: root
+      DB_PASSWORD: 
+    ports:
+      - 8080:9000
+    volumes:
+      - ./:/app
+    networks:
+      - app
+    depends_on:
+      - db
+
+  server:
+    container_name: nginx_server
+    image: nginx:alpine
+    restart: always
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d/
+    networks:
+      - app
+
+  # for database
+  db:
+    container_name: mysql_db
+    image: mysql:latest
+    restart: always
+    environment:
+       MYSQL_DATABASE: ''
+       MYSQL_USER: ''
+       MYSQL_PASSWORD: ''
+       MYSQL_ROOT_PASSWORD: ''
+    ports:
+      - 3006:3006
+    networks:
+      - app
+
+  # for phpmyadmin
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin:latest
+    restart: always
+    ports:
+      - 7001:80
+    networks:
+      - app
+
+networks:
+  app:
+    driver: bridge
+
