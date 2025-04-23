@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>UCS-Myeik</title>
+        <title>Material System</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="{{ asset('dist/assets/img/ucsm.png') }}" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('dist/assets/img/mmr.jpg') }}" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
         <!-- Google fonts-->
@@ -29,7 +29,7 @@
         ">
             <div class="w-100 d-flex align-items-center justify-content-between">
                 <a class="navbar-brand d-block" href="/">
-                    <img src="{{ asset('dist/assets/img/ucsm.png') }}" width="50px" height="50px" />
+                    <img src="{{ asset('dist/assets/img/mmr.jpg') }}" width="50px" height="50px" />
                 </a>
                 <div class="">
                     @if (Route::has('login'))
@@ -83,7 +83,7 @@
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
                         <ul class="list-inline mb-2">
-                            <li class="list-inline-item"><a href="https://www.ucsmyeik.edu.mm/" class="text-decoration-none">Main Website</a></li>
+                            <li class="list-inline-item"><a href="#" class="text-decoration-none">Main Website</a></li>
                             <li class="list-inline-item">⋅</li>
                             <li class="list-inline-item"><a href="#!" class="text-decoration-none">Terms of Use</a></li>
                             <li class="list-inline-item">⋅</li>

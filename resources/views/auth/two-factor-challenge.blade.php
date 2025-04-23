@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <img src="{{ asset('dist/assets/img/ucsm.png') }}" />
+            <img src="{{ asset('dist/assets/img/mmr.jpg') }}" />
         </x-slot>
 
         <div x-data="{ recovery: false }">

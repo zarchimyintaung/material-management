@@ -8,7 +8,7 @@
                 <div class="col-xl-8">
                     <div class="text-center text-white">
                         <!-- Page heading-->
-                        <h1 class="mb-5 header-title">Computer Materials Management System of <span class="text-primary">UCS(Myeik)</span></h1>
+                        <h1 class="mb-5 header-title">Computer Materials Management System<span class="text-primary"></span></h1>
                     </div>
                 </div>
             </div>

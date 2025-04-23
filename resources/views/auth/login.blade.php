@@ -3,7 +3,7 @@
         <x-slot name="logo">
             {{-- <x-jet-authentication-card-logo /> --}}
         </x-slot>
-        <img src="{{ asset('dist/assets/img/ucsm.png') }}" style="width: 70px; height : 70px; display: block; margin :  20px auto; " alt="">
+        <img src="{{ asset('dist/assets/img/mmr.jpg') }}" style="width: 70px; height : 70px; display: block; margin :  20px auto; " alt="">
 
         <x-jet-validation-errors class="mb-4" />
 

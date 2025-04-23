@@ -5,17 +5,17 @@
 	<meta name="author" content="">
 	<meta name="robots" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="UCS-Myeik Computer & Accessories Management">
-	<meta property="og:title" content="UCS-Myeik Computer & Accessories Management">
-	<meta property="og:description" content="UCS-Myeik Computer & Accessories Management">
+	<meta name="description" content="Computer & Accessories Management">
+	<meta property="og:title" content="Computer & Accessories Management">
+	<meta property="og:description" content="Computer & Accessories Management">
 	<meta property="og:image" content="">
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- PAGE TITLE HERE -->
-	<title>UCS-Myeik || @yield('title')</title>
+	<title>Material System || @yield('title')</title>
 	
 	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="{{ asset('dist/assets/img/ucsm.png') }}">
+	<link rel="shortcut icon" type="image/png" href="{{ asset('dist/assets/img/mmr.jpg') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/star-rating/star-rating-svg.css') }}">
 	<link href="{{ asset('vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" /></head>

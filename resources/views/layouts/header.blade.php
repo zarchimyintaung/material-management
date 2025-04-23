@@ -3,7 +3,7 @@
         ***********************************-->
 		<div class="nav-header">
             <a href="/dashboard" class="brand-logo">
-				<img src="{{ asset('dist/assets/img/ucsm.png') }}" style="width: 70px ; height: 70px" alt="">				
+				<img src="{{ asset('dist/assets/img/mmr.jpg') }}" style="width: 70px ; height: 70px" alt="">				
             </a>
             <div class="nav-control">
                 <div class="hamburger">
@@ -24,7 +24,7 @@
                 <nav class="navbar navbar-expand">
                     <div class="collapse navbar-collapse justify-content-between align-items-center">
                         <div class="header-left">
-					        <h2 class="mt-2">UCS-Myeik</h2>
+					        <h2 class="mt-2">Computer Material Management System</h2>
                         </div>
                         <ul class="navbar-nav header-right">			
 							<li class="nav-item dropdown  header-profile">
